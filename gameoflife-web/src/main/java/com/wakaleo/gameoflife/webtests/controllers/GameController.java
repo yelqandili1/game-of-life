@@ -33,7 +33,7 @@ public class GameController {
 
         Universe universe = universeInstanciatedFromClickedCells(rows, columns, request);
         thinkABit(200);
-
+        system.out.println("nothing to do here");
         return showGridScreen(universe);
     }
 
